@@ -35,12 +35,6 @@
   margin: 0 auto 0;
 }
 
-.task {
-  width: 56%;
-  display: inline-block;
-  flex-grow: 1;
-}
-
 .form__input {
   width: 56%;
   display: inline-block;
@@ -138,10 +132,6 @@
   align-items: center;
 }
 
-/* li > * {
-  vertical-align: middle;
-} */
-
 .input_style_checkbox {
   margin: 0 10px;
 }
@@ -151,10 +141,13 @@
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
+  display: inline-block;
+  flex-grow: 1;
 }
 
 .input_style_text {
   width: 226px;
+  flex-grow: 1;
 }
 
 .btn__img {
@@ -169,7 +162,7 @@
 
 /* Completed */
 
-ul#completed-tasks label {
+ul.items-list_type_completed-tasks label {
   text-decoration: line-through;
   color: #888;
 }
