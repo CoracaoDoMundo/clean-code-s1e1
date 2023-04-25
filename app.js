@@ -10,7 +10,7 @@
 
 var taskInput=document.querySelector(".form__input_type_new-task");//Add a new task.
 var addButton=document.getElementsByTagName("button")[0];//first button
-var incompleteTaskHolder=document.querySelector(".items-list_type_incompleteTasks");//ul of #incompleteTasks
+var incompleteTaskHolder=document.querySelector(".items-list_type_incomplete-tasks");//ul of #incompleteTasks
 var completedTasksHolder=document.querySelector(".items-list_type_completed-tasks");//completed-tasks
 
 
