@@ -169,11 +169,11 @@
 /* Edit Task */
 
 .items-list__item .input_style_text,
-.editMode .items-list__label {
+.edit-mode .items-list__label {
   display: none;
 }
 
-.editMode .input_style_text {
+.edit-mode .input_style_text {
   display: inline-block;
   width: 224px;
 }
